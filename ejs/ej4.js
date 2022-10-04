@@ -1,5 +1,5 @@
-var radio = prompt("Introduce un numero");
+var radio = parseFloat(prompt("Introduce un numero"));
 
-var area = Math.PI * parseFloat(radio) ** 2;
+var area = Math.PI * radio ** 2;
 
 console.log(area);
